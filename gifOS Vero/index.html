@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/styles.css" />
+
+    <title>GuifOS</title>
+  </head>
+
+  <body>
+    <header id="encabezado">
+      <div class="margen-superior">
+        <p>
+          ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número
+          de visitas: 12.765.803
+        </p>
+      </div>
+      <div class="contenedor-uno">
+        <div>
+          <img
+            src="assets/gifOF_logo.png"
+            alt="logo"
+            class="logo-gifos"
+            id="logo-gifos"
+          />
+
+          <div id="nav-bar" class="nav-bar">
+            <div class="btn-gifos">
+              <a href="indexCrearGifos/indexC.html" class="ancla"
+                >Crear Guifos</a
+              >
+            </div>
+
+            <div id="seleccion-estilos" class="seleccion-estilos">
+              <div class="btn-tema">
+                <p>Elegir tema</p>
+              </div>
+              <div class="btn-flecha" id="btn-flecha">
+                <img
+                  src="assets/dropdown.svg"
+                  class="btn-flecha-item"
+                  id="btn-flecha-item"
+                  alt="imagen"
+                />
+
+                <div class="btn-estilos" id="btn-estilos">
+                  <div>
+                    <button
+                      type="button"
+                      id="btn-sailorDay"
+                      class="btn-sailorDay"
+                    >
+                      <span class="sailorDay">Sailor Day</span>
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      id="btn-sailorNight"
+                      class="btn-sailorNight"
+                    >
+                      <span class="sailorNight">Sailor Night</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="misGuifos" id="misGuifos">
+              <p>Mis Guifos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="menu-section">
+      <div class="menu-desplegable" id="menu-desplegable">
+        <span class="buscar">Buscar</span>
+        <div class="buscador" id="buscador">
+          <input
+            type="text"
+            placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+            class="input-buscar"
+            id="input-buscar"
+          />
+          <button type="button" class="btn-buscar" id="btn-buscar">
+            <img
+              src="assets/lupa_inactive.svg"
+              class="lupa"
+              id="lupa"
+              alt="imagen"
+            />Buscar
+          </button>
+        </div>
+      </div>
+      <div class="menu-desplegable-items" id="menu-desplegable-items"></div>
+    </section>
+
+    <main>
+      <section id="contenedor-misGuifos">
+        <div class="contenedor" id="contenedor">
+          <div class="sugerencia-misGuifos sugerencia">
+            <span class="span">Mis guifos</span>
+          </div>
+        </div>
+
+        <div class="contenedor-gif" id="contenedor-gif">
+          <!-- <div class="misGuifos_item"> -->
+        </div>
+      </section>
+
+      <section class="sugerencias" id="sugerencias">
+        <div class="contenedor">
+          <div class="sugerencia">
+            <span class="span">Hoy te sugerimos:</span>
+          </div>
+        </div>
+        <div class="contenedor-gif">
+          <div class="sugerencia_gif_item"></div>
+        </div>
+      </section>
+
+      <section class="tendencias" id="tendencias">
+        <div class="contenedor">
+          <div class="titulo-tendencias">
+            <span class="span">Tendencias</span>
+          </div>
+        </div>
+        <div class="contenedor-tendencias"></div>
+      </section>
+
+      <section class="busquedaDeGifs" id="busquedaDeGifs">
+        <div class="contenedor">
+          <div class="contenedor-tags" id="tags-busqueda">
+            <div class="tag"><span>#aplausos</span></div>
+            <div class="tag"><span>#animales</span></div>
+            <div class="tag"><span>#sorpresa</span></div>
+          </div>
+          <div class="titulo-busquedaGuifos" id="titulo-busquedaGuifos">
+            <span class="span-resultados" id="span-resultados"></span>
+          </div>
+        </div>
+
+        <div class="contenedor">
+          <div
+            class="contenedor-busquedaGuifos"
+            id="contenedor-busquedaGuifos"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

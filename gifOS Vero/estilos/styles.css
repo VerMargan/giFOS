@@ -1,0 +1,1681 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #ffff;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+body.sailorNight {
+  background: #110038;
+}
+
+.indexB {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #ffff;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.indexB.sailorNight {
+  background: #110038;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #110038;
+}
+
+.contenedor-uno {
+  width: 83%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedor {
+  width: 1194px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.oculto {
+  display: none;
+}
+
+.margen-superior p {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  color: #ffffff;
+  font-size: 0.875em;
+}
+
+body.sailorNight .margen-superior p {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.logo-gifos {
+  width: 102.6px;
+  cursor: pointer;
+}
+
+.contenedor-uno {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 36px;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 1134px;
+  position: relative;
+  bottom: 43px;
+}
+
+.misGuifos {
+  line-height: 18px;
+  font-size: 1em;
+  color: #110038;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+body.sailorNight .misGuifos {
+  color: #ffffff;
+}
+
+.misGuifos::first-letter {
+  border-bottom: 1px solid #110038;
+}
+
+body.sailorNight .misGuifos::first-letter {
+  border-bottom: 1px solid #ffffff;
+}
+
+.misGuifos:hover {
+  border: 0.5px dotted #110038;
+}
+
+body.sailorNight .misGuifos:hover {
+  border: 0.5px dotted #ffffff;
+}
+
+.seleccion-estilos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.btn-gifos {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  color: #110038;
+  height: 36px;
+  padding: 7.5px;
+  font-size: 1em;
+}
+
+body.sailorNight .btn-gifos {
+  background: #EE3EFE;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #ffffff;
+}
+
+body.sailorNight .btn-gifos:hover {
+  background: #ce36db;
+}
+
+.ancla {
+  color: #110038;
+}
+
+body.sailorNight .ancla {
+  color: #ffffff;
+}
+
+.btn-tema {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  color: #110038;
+  height: 36px;
+  padding: 7.5px;
+  font-size: 1em;
+}
+
+body.sailorNight .btn-tema {
+  color: white;
+  background: #EE3EFE;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+body.sailorNight .btn-tema:hover {
+  background: #ce36db;
+}
+
+.btn-gifos {
+  text-align: center;
+  width: 144px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.btn-tema {
+  text-align: center;
+  width: 131px;
+  height: 36px;
+  margin-left: 16px;
+  position: relative;
+}
+
+.btn-flecha {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  background: #F7C9F3;
+  margin-right: 16.5px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-flecha {
+  background: #EE3EFE;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+body.sailorNight .btn-flecha:hover {
+  background: #ce36db;
+}
+
+.btn-flecha-item {
+  width: 10px;
+  position: relative;
+  left: 11px;
+  top: 5px;
+}
+
+.btn-gifos:hover {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+  background: #e6bbe2;
+}
+
+.btn-gifos:hover:active {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+}
+
+.btn-tema:hover {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+  background: #e6bbe2;
+}
+
+.btn-tema:hover:active {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+}
+
+.btn-flecha:hover {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+  background: #e6bbe2;
+}
+
+.btn-flecha:hover:active {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+}
+
+.btn-estilos {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  width: 170px;
+  position: absolute;
+  right: 14px;
+  top: 35px;
+  display: none;
+}
+
+body.sailorNight .btn-estilos {
+  background: #b4b4b4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+.btn-sailorDay {
+  font-family: "Chakra Petch", sans-serif;
+  width: 150px;
+  height: 36px;
+  margin-top: 13px;
+  background: #fff4fd;
+  border: 1px solid #cca6c9;
+  -webkit-box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-sailorDay {
+  color: #110038;
+  background: #cccccc;
+}
+
+body.sailorNight .btn-sailorDay::first-letter {
+  border-bottom: none;
+}
+
+.btn-sailorDay::first-letter {
+  border-bottom: 1px solid #110038;
+}
+
+.btn-sailorNight {
+  font-family: "Chakra Petch", sans-serif;
+  width: 150px;
+  height: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-sailorNight {
+  color: #ffffff;
+  background: #2e32fb;
+}
+
+body.sailorNight .btn-sailorNight::first-letter {
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu-desplegable {
+  width: 1194px;
+  height: 99px;
+  margin: auto;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body.sailorNight .menu-desplegable {
+  -webkit-box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+.buscar {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  color: #ffffff;
+  font-size: 0.875em;
+  height: 24px;
+  padding: 2px 0 0 8px;
+}
+
+body.sailorNight .buscar {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buscador {
+  background: #e6e6e6;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.sailorNight .buscador {
+  background: #b4b4b4;
+}
+
+.input-buscar {
+  width: 88%;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1em;
+  color: #b4b4b4;
+  padding: 0 16px;
+}
+
+.input-buscar:focus {
+  color: #110038;
+}
+
+.btn-buscar {
+  width: 102px;
+  height: 36px;
+  background: #e6e6e6;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1em;
+  color: #b4b4b4;
+  position: relative;
+  left: 5px;
+}
+
+body.sailorNight .btn-buscar {
+  background: #b4b4b4;
+  color: #8f8f8f;
+}
+
+.lupa {
+  margin-right: 8px;
+}
+
+.btn-buscar:active {
+  background: #f7c9f3;
+  color: #110038;
+}
+
+.btn-buscar:active.btn-buscar:hover {
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+}
+
+body.sailorNight .btn-buscar:active.btn-buscar:hover {
+  background: #ee3efe;
+  color: #ffffff;
+}
+
+body.sailorNight .btn-buscar:active.btn-buscar:hover:hover {
+  outline: 1px dotted #110038;
+}
+
+.sugerencia,
+.titulo-tendencias {
+  background: #fffafe;
+  border: 1px solid #e6bbe2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+          box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+  margin-top: 64px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  color: #110038;
+  height: 32px;
+  padding: 0 16px;
+}
+
+.sugerencia-misGuifos {
+  background: #fffafe;
+  border: 1px solid #e6bbe2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+          box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  color: #110038;
+  height: 32px;
+  padding: 0 16px;
+  position: relative;
+  bottom: 40px;
+}
+
+.span {
+  position: relative;
+  top: 5px;
+}
+
+.contenedor-gif {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: dense;
+  gap: 0.625em;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.menu-desplegable-items {
+  width: 1194px;
+  margin: auto;
+  margin-top: 2px;
+  background: #e6e6e6;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  left: 78px;
+  z-index: 100;
+}
+
+body.sailorNight .menu-desplegable-items {
+  background: #b4b4b4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+.menu-desplegable-items {
+  display: none;
+}
+
+.input-item {
+  width: 90.5%;
+  background: #e6e6e6;
+  height: 36px;
+  padding: 0 16px;
+  position: relative;
+  left: 8px;
+}
+
+body.sailorNight .input-item {
+  background: #b4b4b4;
+}
+
+.input-resultado {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1em;
+  color: #110038;
+  background: #dbdbdb;
+  border: 1px dotted #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+  width: 100%;
+  height: 36px;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+body.sailorNight .input-resultado {
+  background: #cccccc;
+}
+
+.input-resultado2 {
+  height: 36px;
+  background: #f0f0f0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+  width: 100%;
+  padding: 0 16px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1em;
+  color: #110038;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+body.sailorNight .input-resultado2 {
+  background: #cccccc;
+}
+
+.result {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.sugerencia_gif_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#misGuifos-section {
+  display: none;
+}
+
+.gif_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 288px;
+  height: 313px;
+  margin-right: 15px;
+}
+
+.gif_square_item {
+  width: 280px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titulo-gif {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  width: 280px;
+  height: 24px;
+  color: #ffffff;
+  font-size: 0.875em;
+  font-weight: 200;
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+}
+
+body.sailorNight .titulo-gif {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dropdown {
+  width: 1em;
+  height: 0.875em;
+  position: relative;
+  top: 5px;
+  left: 261px;
+  z-index: 3;
+}
+
+.btn_ver_mas {
+  background: #4180f6;
+  border: 1px solid #4c2f99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284f99, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #284f99, inset 2px 2px 0 0 #ffffff;
+  width: 81px;
+  height: 34px;
+  color: #ffffff;
+  font-size: 0.875em;
+  text-align: center;
+  line-height: 27px;
+  position: relative;
+  bottom: 53px;
+  left: 7px;
+  cursor: pointer;
+}
+
+body.sailorNight .btn_ver_mas {
+  background: #2e32fb;
+  border: 1px solid #4c2f99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124b3, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #2124b3, inset 2px 2px 0 0 #ffffff;
+}
+
+.btn_ver_mas:hover {
+  background: #3a72db;
+  outline: 1px dotted #110038;
+  outline-offset: -5px;
+}
+
+body.sailorNight .btn_ver_mas:hover {
+  background: #2e32fb;
+}
+
+.tendencia_subtitulo_hoover {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  color: #ffffff;
+  font-size: 0.875em;
+  font-weight: 200;
+  max-width: 100%;
+  position: relative;
+  bottom: 23px;
+  display: none;
+}
+
+body.sailorNight .tendencia_subtitulo_hoover {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.img-rectangular {
+  width: 580px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gif-flex:hover > .tendencia_subtitulo_hoover {
+  display: block;
+}
+
+.gif-flex {
+  height: 280px;
+  margin-bottom: 20px;
+}
+
+.gif-flex:hover {
+  outline: 1px dotted #110038;
+}
+
+.arrow {
+  font-size: 24px;
+  position: relative;
+  top: 47px;
+  right: 30px;
+}
+
+.contenedor-tendencias {
+  width: 1194px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tendencia_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.gif_flex_item {
+  width: calc(100% / 4);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor-busquedaGuifos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1194px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.titulo-busquedaGuifos {
+  background: #fffafe;
+  border: 1px solid #e6bbe2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+          box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+  margin-top: 50px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  color: #110038;
+  height: 32px;
+  padding: 0 16px;
+  display: none;
+}
+
+.span-resultados {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contenedor-tags {
+  display: none;
+  margin-top: 12px;
+}
+
+.tag {
+  height: 34px;
+  width: 100px;
+  background-color: #4180f6;
+  border: 1px solid #4c2f99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284f99, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #284f99, inset 2px 2px 0 0 #ffffff;
+  color: #ffffff;
+  font-size: 0.875em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.busqueda_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.gif_flex_busquedaItem {
+  width: calc(100% / 4);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ventana-crear-gifos {
+  width: 684px;
+  height: 386px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.crearGifos {
+  height: 24px;
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+}
+
+body.sailorNight .crearGifos {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.titulo-crearGifos {
+  font-size: 1em;
+  color: #110038;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 17px;
+}
+
+.ventana {
+  margin-left: 25px;
+  position: relative;
+  top: 55px;
+}
+
+.contenedor-texto-crearGifos {
+  width: 518px;
+}
+
+.titulo-crearGifos {
+  margin-top: 20px;
+  margin-left: 73px;
+}
+
+.contenedor-textoCuerpo-crearGifos {
+  margin-left: 73px;
+  font-size: 0.875em;
+}
+
+.textoCuerpo-bajada {
+  width: 518px;
+  margin-bottom: 7px;
+}
+
+.numero {
+  margin-bottom: 7px;
+  line-height: 20px;
+}
+
+.numero-item {
+  font-size: 0.875em;
+  color: #00001a;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.cursiva {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.contenedor-crearGifos_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 28px;
+}
+
+.btn-cancelar {
+  width: 144px;
+  height: 36px;
+  margin-right: 16px;
+  background: #fff4fd;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  text-align: center;
+  line-height: 18px;
+}
+
+.btn-comenzar {
+  width: 144px;
+  height: 36px;
+  margin-right: 36px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  text-align: center;
+  line-height: 18px;
+}
+
+body.sailorNight .btn-comenzar {
+  background: #ee3efe;
+  color: #ffffff;
+}
+
+.ventana-capturar {
+  width: 860px;
+  height: 548px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chequeo {
+  height: 24px;
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body.sailorNight .chequeo {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.titulo-chequeo {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  font: weight 200;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.dropdown-video {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.ventana-video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 11px;
+}
+
+.video {
+  width: 832px;
+  height: 434px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.captura-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn-capturar {
+  width: 144px;
+  height: 36px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 16px 16px 0;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-capturar {
+  background: #ee3efe;
+  color: #ffffff;
+}
+
+.img-camara {
+  width: 36px;
+  height: 36px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 0px 16px 0;
+}
+
+body.sailorNight .img-camara {
+  background: #ee3efe;
+  color: #ffffff;
+}
+
+.ventana-capturandoTuGuifo {
+  width: 860px;
+  height: 548px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.capturar-guifo {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body.sailorNight .capturar-guifo {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.titulo-captura {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.dropdown-videoCaptura {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.ventana-video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 11px;
+}
+
+.video {
+  width: 832px;
+  height: 434px;
+}
+
+.captura-videoListo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.btn-listo {
+  width: 144px;
+  height: 36px;
+  font-size: 1em;
+  color: #ffffff;
+  background: #ff6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 16px 16px 0;
+  cursor: pointer;
+}
+
+.img-listo {
+  width: 36px;
+  height: 36px;
+  background: #ff6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 0px 16px 0;
+}
+
+.cronometro {
+  width: 124px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+  position: absolute;
+  left: 0px;
+  margin: 24px 0px 16px 11px;
+  text-align: center;
+}
+
+.cronometro-tiempo {
+  font-size: 1em;
+  color: #110038;
+  position: relative;
+  top: 8px;
+}
+
+.ventana-vistaPrevia {
+  width: 860px;
+  height: 548px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vistaPrevia {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body.sailorNight .vistaPrevia {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.titulo-vistaPrevia {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.dropdown-vistaPrevia {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.ventana-vistaPrevia-video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 11px;
+}
+
+.video-vistaPrevia {
+  width: 832px;
+  height: 434px;
+}
+
+.btn-listo {
+  width: 144px;
+  height: 36px;
+  font-size: 1em;
+  color: #ffffff;
+  background: #ff6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 16px 16px 0;
+  cursor: pointer;
+}
+
+.img-listo {
+  width: 36px;
+  height: 36px;
+  background: #ff6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+  margin: 24px 0px 16px 0;
+}
+
+.cronometro-vistaPrevia {
+  width: 124px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+  margin: 24px 0px 16px 13px;
+  text-align: center;
+  position: relative;
+  bottom: 23px;
+}
+
+.cronometro-tiempo-vP {
+  font-size: 1em;
+  color: #110038;
+  position: relative;
+  top: 8px;
+}
+
+.flecha-fordward {
+  width: 20px;
+  height: 20px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: 23px;
+}
+
+body.sailorNight .flecha-fordward {
+  background: #ee3efe;
+}
+
+.barra-progreso {
+  width: 240px;
+  height: 26px;
+  -webkit-box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+          box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+  position: relative;
+}
+
+progress {
+  width: 235px;
+  height: 21px;
+  position: relative;
+  bottom: 17px;
+  left: 4px;
+  background: #b4b4b4;
+  border-right: 1px solid #999999;
+}
+
+progress::-webkit-progress-value {
+  background: #f7c9f3;
+}
+
+body.sailorNight progress::-webkit-progress-value {
+  background: #ee3efe;
+}
+
+.btn-vistaPrevia {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-repetirCaptura {
+  width: 144px;
+  height: 36px;
+  margin-right: 16px;
+  background: #fff4fd;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-repetirCaptura {
+  background: #110038;
+  border: 1px solid #b4b4b4;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5c5c5c, inset 1px 1px 0 0 #fff4fd;
+          box-shadow: inset -1px -1px 0 0 #5c5c5c, inset 1px 1px 0 0 #fff4fd;
+  color: #ffffff;
+}
+
+body.sailorNight .btn-repetirCaptura:active {
+  outline: 1px dotted #ffffff;
+  outline-offset: -4px;
+}
+
+.btn-subirGuifo {
+  width: 144px;
+  height: 36px;
+  margin-right: 16px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+body.sailorNight .btn-subirGuifo {
+  background: #ee3efe;
+  color: #ffffff;
+}
+
+.subiendo-guifo {
+  width: 860px;
+  height: 548px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subiendo {
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body.sailorNight .subiendo {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.titulo-subiendoGuifo {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 0.875em;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.dropdown-subiendoGuifo {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.ventana-subiendoGuifo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 11px;
+}
+
+.ventana-subiendoGuifo-item {
+  width: 832px;
+  height: 434px;
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aviso-subidaGuifo {
+  font-size: 1em;
+  font-weight: 600;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+}
+
+.btn-cancelar-subida {
+  width: 144px;
+  height: 36px;
+  margin-right: 16px;
+  background: #fff4fd;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.barra-progreso {
+  width: 240px;
+  height: 26px;
+  position: relative;
+}
+
+.progress-subida {
+  width: 324px;
+  height: 24px;
+  background: #b4b4b4;
+  border-right: 1px solid #999999;
+  -webkit-box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+          box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+  margin-top: 29px;
+}
+
+.progress-subida::-webkit-progress-value {
+  background: #f7c9f3;
+}
+
+body.sailorNight .progress-subida::-webkit-progress-value {
+  background: #ee3efe;
+}
+
+.tiempo-restante {
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #110038a3;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 14px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.cancelar-subidaGuifo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 21px;
+}
+
+.ventana-GuifoExito {
+  width: 721px;
+  height: 391px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  margin: 50px auto 153px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.guifo-subido {
+  height: 24px;
+  background: -webkit-gradient(linear, right top, left top, from(#f7c9f3), to(#4180f6));
+  background: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+  font-size: 0.875em;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 3px;
+}
+
+body.sailorNight .guifo-subido {
+  background: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.ventana-GuifoExito-item {
+  position: relative;
+}
+
+.dropdown-guifoOk {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  margin-right: 10px;
+}
+
+.ventana-guifoOk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.videoOK {
+  width: 371px;
+  height: 196px;
+  margin: 27px 27px 0 27px;
+  background: #ffffff;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+}
+
+.guifo-ok {
+  width: 365px;
+  height: 194px;
+}
+
+.contenedor-titulo-GuifoOk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titulo-guifoOk {
+  font-size: 1em;
+  font-weight: bold;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.contenedor-textoCuerpo-crearGifos {
+  margin-left: 73px;
+  font-size: 0.875em;
+}
+
+.btn-enlaceGuifo,
+.btn-descargarGuifo {
+  width: 256px;
+  height: 36px;
+  background: #fff4fd;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1em;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.btn-enlaceGuifo {
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+
+.contenedor-btnListo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn-listo2 {
+  width: 144px;
+  height: 36px;
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  font-size: 1em;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: 39px;
+  right: 46px;
+}
+
+body.sailorNight .btn-listo2 {
+  background: #ee3efe;
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */

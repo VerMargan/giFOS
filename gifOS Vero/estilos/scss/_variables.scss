@@ -1,0 +1,40 @@
+//  Color Pallete
+$color-font:#110038; 
+
+
+
+$color-background-primary:#F7C9F3;
+$color-background-secondary:#4180F6;
+//boton Noche
+$color-button-night:#EE3EFE;
+$shadow-button-night: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+
+$color-shadow-top: #8f8f8f;
+$color-shadow-top-secondary: #5c5c5c;
+
+// Sombras de cajas
+
+$color-box-day: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+$color-box-night:inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+
+//bordes cajas
+$border-day:1px solid #E6BBE2;
+$border-night: 1px solid #2E32FB;
+
+$color-gradient-day: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%); //para barras superiores es el mismo gradiente
+
+$color-gradient-night:linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+
+
+
+
+//  Fonts
+$font-primary:'Chakra Petch', sans-serif;
+
+$font-24: 1.5em;
+$font-22: 1.375em;
+$font-20: 1.25em;
+$font-18: 1.125em;
+$font-16: 1em;
+$font-14: 0.875em;
+$font-12: 0.75em;

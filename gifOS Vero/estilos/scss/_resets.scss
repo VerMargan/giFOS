@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #ffff;
+  transition: 0.3s ease all;
+
+  &.sailorNight {
+    background: #110038;
+  }
+}
+
+.indexB {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #ffff;
+  transition: 0.3s ease all;
+
+  &.sailorNight {
+    background: #110038;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #110038;
+}
+
+.contenedor-uno {
+  width: 83%;
+  margin: auto;
+  display: flex;
+}
+
+.contenedor {
+  width: 1194px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.oculto {
+  display: none;
+}
+// ver de unir los dos contendores
+//agregar botones caracteristicas
